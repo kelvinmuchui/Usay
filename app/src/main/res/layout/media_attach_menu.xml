@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true">
+    <!--row 1 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0EFED"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!--Gallery Icon -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/gallery_img_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/gallery" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Gallery" />
+        </LinearLayout>
+
+        <!--Photo Icon -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/photo_img_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/photo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Photo" />
+        </LinearLayout>
+
+        <!--Video Icon -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/video_img_btn"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/video" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Video" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0EFED"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        >
+
+        <!--Gallery Icon -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/file"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/gallery" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Gallery" />
+        </LinearLayout>
+
+        <!--Photo Icon -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/contact"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/photo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Photo" />
+        </LinearLayout>
+
+        <!--Video Icon -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/audio"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/video" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Video" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

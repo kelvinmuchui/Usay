@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_message"
+        android:icon="@drawable/ic_message"
+        android:title="Usay">
+    </item>
+    <item
+        android:id="@+id/ic_friends"
+        android:icon="@drawable/ic_friends"
+        android:title="Ufriend">
+    </item>
+    <item
+        android:id="@+id/ic_services"
+        android:icon="@drawable/ic_services"
+        android:title="Uservice">
+    </item>
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="Uhome">
+    </item>
+
+
+</menu>
